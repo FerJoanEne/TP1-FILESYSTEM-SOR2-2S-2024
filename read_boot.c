@@ -49,7 +49,7 @@ int main() {
         printf("Partition type: %d\n", pt[i].partition_type);
         if(pt[i].partition_type == 1) {
             printf("Encontrado FAT12 %d\n", i);
-            //break;
+            break;
         }
     }
     
